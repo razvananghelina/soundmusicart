@@ -1,0 +1,12 @@
+# Redirectare orice pagină către index.html
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Nu redirecta dacă fișierul sau directorul există deja
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirectare toate cererile către index.html
+    RewriteRule ^(.*)$ index.html [L]
+</IfModule>

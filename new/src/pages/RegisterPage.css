@@ -1,0 +1,237 @@
+.register-page {
+  width: 100%;
+}
+
+.register-page .page-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: var(--white);
+  padding: 100px 0 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.register-page .page-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-page .page-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.register-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+}
+
+.register-info h2,
+.register-form-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 25px;
+}
+
+.benefits-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.benefits-list li {
+  padding-left: 30px;
+  position: relative;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.benefits-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.info-box {
+  background: var(--bg-light);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.info-box h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.register-form {
+  background: var(--bg-light);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.input-with-icon input,
+.input-with-icon select {
+  width: 100%;
+  padding: 15px 15px 15px 45px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input-with-icon input:focus,
+.input-with-icon select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  resize: vertical;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.radio-label span {
+  color: var(--text-dark);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 18px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 932px) {
+  .register-page .page-hero {
+    padding: 80px 0 35px;
+    margin-top: 90px;
+  }
+
+  .register-page .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .register-page .page-hero p {
+    font-size: 1rem;
+  }
+
+  .register-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .register-form {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-page .page-hero {
+    padding: 70px 0 30px;
+    margin-top: 80px;
+  }
+
+  .register-page .page-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .register-page .page-hero p {
+    font-size: 0.95rem;
+  }
+
+  .register-info h2,
+  .register-form-wrapper h2 {
+    font-size: 1.6rem;
+  }
+
+  .register-form {
+    padding: 25px;
+  }
+
+  .radio-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

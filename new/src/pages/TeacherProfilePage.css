@@ -1,0 +1,91 @@
+.teacher-profile-page {
+  width: 100%;
+}
+
+.teacher-profile-page .page-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: var(--white);
+  padding: 100px 0 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.teacher-profile-page .page-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.teacher-profile-page .page-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.teacher-profile-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.teacher-profile-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.teacher-profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.teacher-profile-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.teacher-profile-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 932px) {
+  .teacher-profile-page .page-hero {
+    padding: 80px 0 35px;
+    margin-top: 90px;
+  }
+
+  .teacher-profile-page .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .teacher-profile-page .page-hero p {
+    font-size: 1rem;
+  }
+
+  .teacher-profile-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .teacher-profile-page .page-hero {
+    padding: 70px 0 30px;
+    margin-top: 80px;
+  }
+
+  .teacher-profile-page .page-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .teacher-profile-page .page-hero p {
+    font-size: 0.95rem;
+  }
+}

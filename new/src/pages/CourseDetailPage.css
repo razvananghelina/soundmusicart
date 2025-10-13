@@ -1,0 +1,145 @@
+.course-detail-page {
+  width: 100%;
+}
+
+.course-detail-page .page-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: var(--white);
+  padding: 100px 0 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.course-detail-page .page-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.course-detail-page .page-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.course-detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.course-detail-image {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.course-detail-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.course-detail-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.course-detail-info p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.course-meta {
+  background: var(--bg-light);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.course-meta-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.course-meta-item:last-child {
+  border-bottom: none;
+}
+
+.course-meta-item strong {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.course-meta-item span {
+  color: var(--text-light);
+}
+
+.course-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+@media (max-width: 932px) {
+  .course-detail-page .page-hero {
+    padding: 80px 0 35px;
+    margin-top: 90px;
+  }
+
+  .course-detail-page .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .course-detail-page .page-hero p {
+    font-size: 1rem;
+  }
+
+  .course-detail-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .course-detail-page .page-hero {
+    padding: 70px 0 30px;
+    margin-top: 80px;
+  }
+
+  .course-detail-page .page-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .course-detail-page .page-hero p {
+    font-size: 0.95rem;
+  }
+
+  .course-actions {
+    flex-direction: column;
+  }
+
+  .course-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,56 @@
+.teachers-page {
+  width: 100%;
+}
+
+.teachers-page .page-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: var(--white);
+  padding: 100px 0 40px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.teachers-page .page-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.teachers-page .page-hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.teachers-page .teachers {
+  background: var(--white);
+}
+
+@media (max-width: 932px) {
+  .teachers-page .page-hero {
+    padding: 80px 0 35px;
+    margin-top: 90px;
+  }
+
+  .teachers-page .page-hero h1 {
+    font-size: 2rem;
+  }
+
+  .teachers-page .page-hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .teachers-page .page-hero {
+    padding: 70px 0 30px;
+    margin-top: 80px;
+  }
+
+  .teachers-page .page-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .teachers-page .page-hero p {
+    font-size: 0.95rem;
+  }
+}
