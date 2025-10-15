@@ -85,7 +85,7 @@
 
 .logo img.logo-small {
   height: auto;
-  width: 200px;
+  width: 120px;
 }
 
 .header.scrolled .logo img:not(.logo-small) {
@@ -161,7 +161,7 @@
   }
 
   .logo img.logo-small {
-    width: 160px;
+    width: 100px;
   }
 
   .header.scrolled .logo img:not(.logo-small) {
@@ -227,7 +227,7 @@
   }
 
   .logo img.logo-small {
-    width: 140px;
+    width: 90px;
   }
 
   .header.scrolled .logo img:not(.logo-small) {
