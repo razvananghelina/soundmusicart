@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import './Hero.css'
 import slider1 from '../assets/slider1.jpg'
@@ -13,18 +14,21 @@ const Hero = () => {
       title: 'Bine ai venit la Sound Music Art',
       subtitle: 'Locul unde pasiunea pentru muzică prinde viață!',
       buttonText: 'CURSURI',
+      buttonLink: '/cursuri',
       bgImage: slider1
     },
     {
-      title: 'Bine ai venit la Sound Music Art',
-      subtitle: 'Locul unde pasiunea pentru muzică prinde viață!',
-      buttonText: 'CURSURI',
+      title: 'Oferim cursuri de muzică',
+      subtitle: 'pentru copii și adulți, într-un mediu cald, profesionist și creativ.',
+      buttonText: 'VEZI CURSURI',
+      buttonLink: '/cursuri',
       bgImage: slider2
     },
     {
-      title: 'Bine ai venit la Sound Music Art',
-      subtitle: 'Locul unde pasiunea pentru muzică prinde viață!',
-      buttonText: 'CURSURI',
+      title: 'Studioul nostru de înregistrări',
+      subtitle: 'Te ajută să imprimi cele mai frumoase momente.',
+      buttonText: 'CONTACTEAZĂ-NE',
+      buttonLink: '/contact',
       bgImage: slider3
     }
   ]
@@ -32,7 +36,7 @@ const Hero = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length)
-    }, 5000)
+    }, 7500)
     return () => clearInterval(timer)
   }, [slides.length])
 
@@ -62,7 +66,7 @@ const Hero = () => {
               <div className="hero-content">
                 <h1 className="hero-title">{slide.title}</h1>
                 <p className="hero-subtitle">{slide.subtitle}</p>
-                <button className="btn btn-outline">{slide.buttonText}</button>
+                <Link to={slide.buttonLink} className="btn btn-outline">{slide.buttonText}</Link>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMusic, FaAward, FaHeart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import alexCornelia from '../assets/alex_cornelia.jpg'
 import './About.css'
 
@@ -22,34 +22,9 @@ const About = () => {
             <p>
               Școala oferă cursuri pentru toate vârstele și nivelurile, la instrumente precum pian, chitară, nai, tobe, vioară, orgă, precum și canto. Profesorii sunt dedicați sprijinirii fiecărui elev în dezvoltarea artistică.
             </p>
-          </div>
-        </div>
-
-        <div className="about-content">
-          <div className="about-features">
-            <div className="about-feature">
-              <div className="feature-icon">
-                <FaMusic />
-              </div>
-              <h3>Educație Muzicală</h3>
-              <p>Programe adaptate pentru toate vârstele și nivelurile</p>
-            </div>
-
-            <div className="about-feature">
-              <div className="feature-icon">
-                <FaAward />
-              </div>
-              <h3>Premii și Recunoaștere</h3>
-              <p>Elevii noștri au câștigat premii naționale și internaționale</p>
-            </div>
-
-            <div className="about-feature">
-              <div className="feature-icon">
-                <FaHeart />
-              </div>
-              <h3>Pasiune pentru Muzică</h3>
-              <p>Dezvoltăm nu doar tehnica, ci și dragostea pentru artă</p>
-            </div>
+            <Link to="/despre-noi" className="about-read-more-btn">
+              Despre noi
+            </Link>
           </div>
         </div>
       </div>
