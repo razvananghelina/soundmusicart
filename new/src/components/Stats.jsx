@@ -32,6 +32,7 @@ const Stats = () => {
 
   return (
     <section className="stats section" style={{ backgroundImage: `url(${bgMusicNotes})` }}>
+      <div className="stats-overlay"></div>
       <div className="container">
         <div className="section-title">
           <h2>De ce să alegi Sound Music Art?</h2>

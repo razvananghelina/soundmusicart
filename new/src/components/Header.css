@@ -124,11 +124,13 @@
   transition: width 0.3s ease;
 }
 
-.nav-menu li a:hover {
+.nav-menu li a:hover,
+.nav-menu li a.active {
   color: var(--primary-color);
 }
 
-.nav-menu li a:hover::after {
+.nav-menu li a:hover::after,
+.nav-menu li a.active::after {
   width: 100%;
 }
 

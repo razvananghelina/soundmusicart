@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { FaBars, FaTimes, FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaYoutubeSquare, FaPhone, FaEnvelope } from 'react-icons/fa'
 import logo from '../assets/logo.png'
 import logoSmall from '../assets/logo_small.png'
@@ -49,12 +49,12 @@ const Header = () => {
 
             <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
               <ul className="nav-menu">
-                <li><Link to="/" onClick={toggleMenu}>Acasa</Link></li>
-                <li><Link to="/despre-noi" onClick={toggleMenu}>Despre noi</Link></li>
-                <li><Link to="/profesori" onClick={toggleMenu}>Profesorii nostri</Link></li>
-                <li><Link to="/cursuri" onClick={toggleMenu}>Cursuri</Link></li>
-                <li><Link to="/blog" onClick={toggleMenu}>Blog</Link></li>
-                <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+                <li><NavLink to="/" onClick={toggleMenu} end>Acasa</NavLink></li>
+                <li><NavLink to="/despre-noi" onClick={toggleMenu}>Despre noi</NavLink></li>
+                <li><NavLink to="/profesori" onClick={toggleMenu}>Profesorii nostri</NavLink></li>
+                <li><NavLink to="/cursuri" onClick={toggleMenu}>Cursuri</NavLink></li>
+                <li><NavLink to="/blog" onClick={toggleMenu}>Blog</NavLink></li>
+                <li><NavLink to="/contact" onClick={toggleMenu}>Contact</NavLink></li>
               </ul>
               <Link to="/inscrie-te" className="btn btn-primary book-btn" onClick={toggleMenu}>INSCRIE-TE</Link>
             </nav>
