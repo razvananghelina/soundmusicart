@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart } from 'react-icons/fa'
+import { FaFacebookSquare, FaTwitterSquare, FaInstagramSquare, FaYoutubeSquare, FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart } from 'react-icons/fa'
+import logo from '../assets/logo.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -11,16 +12,16 @@ const Footer = () => {
           <div className="footer-grid">
             <div className="footer-column">
               <div className="footer-logo">
-                <img src="/images/logo.png" alt="SoundMusicArt Logo" />
+                <img src={logo} alt="SoundMusicArt Logo" />
               </div>
               <p className="footer-description">
                 Școală de muzică profesională dedicată pasiunii și excelenței în educația muzicală.
               </p>
               <div className="footer-social">
-                <a href="#" aria-label="Facebook"><FaFacebookF /></a>
-                <a href="#" aria-label="Twitter"><FaTwitter /></a>
-                <a href="#" aria-label="Instagram"><FaInstagram /></a>
-                <a href="#" aria-label="YouTube"><FaYoutube /></a>
+                <a href="#" aria-label="Facebook"><FaFacebookSquare /></a>
+                <a href="#" aria-label="Twitter"><FaTwitterSquare /></a>
+                <a href="#" aria-label="Instagram"><FaInstagramSquare /></a>
+                <a href="#" aria-label="YouTube"><FaYoutubeSquare /></a>
               </div>
             </div>
 

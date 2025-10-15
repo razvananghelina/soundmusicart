@@ -33,10 +33,6 @@ const CVTSection = () => {
     <>
       <section className="cvt-intro section">
         <div className="container">
-          <div className="section-title">
-            <h2>Ce oferim?</h2>
-          </div>
-
           <div className="cvt-intro-layout">
             <div className="cvt-intro-content">
               <p>
@@ -113,6 +109,14 @@ const CVTSection = () => {
               </p>
               <p>
                 CVT se remarcă printr-o abordare clară și practică, oferind soluții concrete pentru orice provocare vocală, indiferent de stilul muzical – fie că este vorba despre muzică clasică, pop, rock, R&B, jazz sau metal.
+              </p>
+              <h3>Dezvoltare personală</h3>
+              <p>
+                Pe lângă pregătirea muzicală, oferim și ateliere de dezvoltare personală sub numele <strong>"Inimi curajoase"</strong>, ce au ca scop sprijinirea emoțională și dezvoltarea încrederii de sine a elevilor. Credem că un artist împlinit este, înainte de toate, un om echilibrat și curajos, capabil să-și exprime autentic trăirile prin muzică.
+              </p>
+              <h3>Studio de înregistrări</h3>
+              <p>
+                Cursanții noștri au acces la propriul nostru studio de înregistrări, un spațiu profesional unde își pot explora creativitatea, înregistra piese, construi un portofoliu artistic și experimenta procesul muzical complet, de la idee la produs finit. Studioul este deschis și pentru colaborări între elevi, profesori sau invitați speciali, încurajând astfel lucrul în echipă și schimbul de idei artistice.
               </p>
             </div>
           </div>

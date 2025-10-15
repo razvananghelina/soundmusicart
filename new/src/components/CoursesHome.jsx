@@ -13,15 +13,15 @@ import './CoursesHome.css'
 
 const CoursesHome = () => {
   const courses = [
-    { image: acordeonImg, title: 'Acordeon', slug: 'acordeon' },
-    { image: dezvoltareImg, title: 'Atelierele de dezvoltare personală', slug: 'dezvoltare-personala' },
-    { image: cantoImg, title: 'Canto muzică ușoară/populară', slug: 'canto' },
-    { image: chitaraImg, title: 'Chitară', slug: 'chitara' },
-    { image: corImg, title: 'COR', slug: 'cor' },
-    { image: naiImg, title: 'Nai pentru muzica populară (folclor și etno)', slug: 'nai' },
-    { image: pianImg, title: 'Pian clasic /orgă', slug: 'pian' },
-    { image: studioImg, title: 'Studio de înregistrări', slug: 'studio' },
-    { image: tobeImg, title: 'Tobe', slug: 'tobe' }
+    { image: acordeonImg, title: 'Acordeon', slug: 'acordeon', showOnHome: false },
+    { image: dezvoltareImg, title: 'Atelierele de dezvoltare personală', slug: 'dezvoltare-personala', showOnHome: false },
+    { image: cantoImg, title: 'Canto muzică ușoară/populară', slug: 'canto', showOnHome: true },
+    { image: chitaraImg, title: 'Chitară', slug: 'chitara', showOnHome: true },
+    { image: corImg, title: 'COR', slug: 'cor', showOnHome: false },
+    { image: naiImg, title: 'Nai pentru muzica populară (folclor și etno)', slug: 'nai', showOnHome: false },
+    { image: pianImg, title: 'Pian clasic /orgă', slug: 'pian', showOnHome: true },
+    { image: studioImg, title: 'Studio de înregistrări', slug: 'studio', showOnHome: false },
+    { image: tobeImg, title: 'Tobe', slug: 'tobe', showOnHome: false }
   ]
 
   return (
@@ -33,7 +33,7 @@ const CoursesHome = () => {
 
         <div className="courses-home-grid">
           {courses.map((course, index) => (
-            <div key={index} className="course-home-card">
+            <div key={index} className={`course-home-card ${!course.showOnHome ? 'course-hidden' : ''}`}>
               <Link to={`/cursuri/${course.slug}`}>
                 <div className="course-home-image">
                   <img src={course.image} alt={course.title} />

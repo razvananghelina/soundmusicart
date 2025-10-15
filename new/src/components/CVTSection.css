@@ -87,11 +87,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-  align-items: center;
+  align-items: start;
 }
 
 .cvt-content {
   max-width: 600px;
+}
+
+.cvt-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .cvt-content p {

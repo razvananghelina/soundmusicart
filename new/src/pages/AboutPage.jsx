@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaMusic, FaAward, FaHeart, FaMicrophone, FaHeadphones, FaUsers } from 'react-icons/fa'
 import './AboutPage.css'
 
