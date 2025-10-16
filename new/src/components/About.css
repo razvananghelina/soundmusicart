@@ -62,12 +62,91 @@
   text-decoration: none;
   transition: all 0.3s ease;
   align-self: flex-start;
+  margin-top: 20px;
 }
 
 .about-read-more-btn:hover {
   background: var(--primary-color);
   color: var(--white);
   transform: translateY(-2px);
+}
+
+.cvt-intro-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.cvt-intro-content {
+  max-width: 600px;
+}
+
+.cvt-intro-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+.cvt-intro-content strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.cvt-video-wrapper {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.cvt-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.video-play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.video-play-overlay:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.play-button {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.play-button svg {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-left: 6px;
+}
+
+.video-play-overlay:hover .play-button {
+  transform: scale(1.1);
+  background: var(--white);
 }
 
 .about-features {
@@ -150,6 +229,29 @@
   .about-text p {
     font-size: 1rem;
   }
+
+  .cvt-intro-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cvt-intro-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cvt-intro-content p {
+    font-size: 1rem;
+  }
+
+  .play-button {
+    width: 70px;
+    height: 70px;
+  }
+
+  .play-button svg {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -164,5 +266,14 @@
 
   .about-feature {
     padding: 35px 25px;
+  }
+
+  .play-button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .play-button svg {
+    font-size: 1.5rem;
   }
 }

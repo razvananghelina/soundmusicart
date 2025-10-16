@@ -3,9 +3,7 @@
 }
 
 .courses-page .page-hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-  color: var(--white);
-  padding: 100px 0 40px;
+  padding: 60px 0 40px;
   text-align: center;
   margin-top: 110px;
 }
@@ -14,11 +12,12 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 10px;
+  color: #5cc8be;
 }
 
 .courses-page .page-hero p {
   font-size: 1.1rem;
-  opacity: 0.9;
+  color: var(--text-light);
 }
 
 .courses-grid {
