@@ -109,25 +109,62 @@ const TeacherProfilePage = () => {
       name: 'Gila Stefan',
       specialty: 'Prof. Acordeon',
       image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Stefan-Gila.jpg',
-      bio: 'Profesor de acordeon cu experiență în muzică populară și clasică.'
+      bio: [
+        'Muzician de naționalitate română, profesor de muzică, artist instrumentist tubă al Orchestrei secției de Revistă "Constantin Zărnescu" a Teatrului Alexandru Davila din Pitești și Diacon onorific al Sfintei Arhiepiscopii a Argeșului și Muscelului.',
+        'A absolvit Liceul de Arte "Dinu Lipatti" din Pitești la instrument principal tubă, după care a urmat studiile de specialitate din domeniul muzicii în cadrul Universității de Stat din Pitești , Facultatea de Teologie Ortodoxă "Sfânta Muceniță Filoteea" secția Pedagogie Muzicală , având două specializări : Pedagogie Muzicală și Metodica – Didactica Predării Instrumentului – Instrument Tubă. Licențiat în Dirijat Coral și Metodica predării muzicii.',
+        'Întreaga viață a fost pasionat de Acordeon, chiar dacă de profesie nu a fost acordeonist, în măsura în care a putut a reușit să descopere tainele interpretării instrumentale cât și pedagogice a acordeonului clasic ca autodidact .',
+        'A predat instrumente de suflet din alamă – tubă în cadrul Liceului de Arte Dinu Lipatti din Pitești.',
+        'În cadrul Școlii Populare de Arte și Meserii din Pitești a predat acordeon afirmându-se printr-un proiect în premieră pentru pedagogia, educația, muzica și cultura interpretării instrumentale a acordeonului clasic din spațiul argeșean și piteștean – ,,Acordeon Clasic în Pitești".',
+        'A participat ca membru în juriul mai multor festivaluri naționale de muzică printre care ,,Steluțe Argeșene" și "Cruce Sfântă Părăsită" organizate de SPAM.',
+        'A fost timp de 6 ani membru fondator și tubist al ,,Fanfarei Argeșul".',
+        'A colaborat ca artist instrumentist – tubă cu Orchestra Filarmonicii Oltenia Craiova, Corul Eufonia și ansamblul instrumental al Filarmonicii Ion Dumitrescu din Râmnicu-Vâlcea (acordeon) și cu diverse ansambluri instrumentale.',
+        'A fost apreciat profesional de mari nume ale muzicii mondiale printre care Arturo Sandoval, Bob Stewart ș.a.',
+        'A compus lucrări instrumentale pentru diverse instrumente precum: ,,De la viața la moarte" – tema pentru pian , ,,Dragoste pentru Arturo Sandoval" – pentru trompeta solo, ,,Tatăl Nostru" pentru solist ș.a.',
+        'A fost apreciat și selectat de nume mari ale dramaturgiei românești și europene cu care a colaborat profesional ca instrumentist – tubă și acordeon în piesele regizate de Silviu Purcărete -,, Poeme" pe versuri de Mircea Dinescu , ,,Patriotica Română" în regia lui Dan Tudor , "Cu sufletul nu-i de glumit" regia Sorin Militaru . ș.a.',
+        'A interpretat muzica pentru tubă scrisă de maestrul Vasile Șirli, directorul muzical al Disneyland Paris cu care a colaborat, piese pentru tubă solo compuse de profesorul său de armonie de la Pitești, Sabin Păuța.',
+        'A susținut cursurile cercului de Orchestră din cadrul Clubului Copiilor din Mioveni 2021 – 2022.',
+        'Din 1 Februarie 2023 activează ca artist instrumentist în proiectul pasiunii sale pentru acordeon "Ștefan Daniel Gilă International Accordion Music".'
+      ]
     },
     'victor-toader': {
       name: 'Victor Toader',
       specialty: 'Prof. Tobe',
       image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Victor-Toader.jpg',
-      bio: 'Profesor de tobe cu experiență în diverse stiluri ritmice.'
+      bio: 'Prof. Victor Toader este absolvent al Liceului de Artă „Dinu Lipatti" din Pitești, deținător al atestatului profesional în muzică și laureat al unor competiții naționale de percuție. În prezent, își continuă parcursul academic în cadrul Facultății de Muzică a Universității din Pitești și desfășoară activitate pedagogică în calitate de profesor de tobe la Școala Populară de Arte și Meserii din Pitești.'
     },
     'mihaela-lucia-pitigoi': {
       name: 'Mihaela Lucia Pitigoi',
       specialty: 'Prof. Canto Muzică Ușoară și Populară',
       image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Mihaela-Pitigoi.jpg',
-      bio: 'Profesor de canto specializat în muzică ușoară și populară.'
+      bio: [
+        'Mihaela Lucia Pițigoi este profesor de canto muzică ușoară și populară.',
+        'Este absolventă a Universității de Stat din Pitești, Facultatea de Teologie, Litere, Istorie și Arte, secția Pedagogie Muzicală. Ulterior a absolvit și cursurile de Master în cadrul Universității din Pitești, Educație Muzicală Contemporană.',
+        'A câștigat numeroase premii și diplome de excelență la concursurile de specialitate, dintre care amintim:',
+        '– Diploma de Excelență – cel mai bun interpret al cântecului popular argeșean, Pitești, Argeș. Oferit de către Centrul Județean pentru Conservarea și Promovarea Culturii Tradiționale Argeș, 2015',
+        '– Premiul I  – Festivalul Naţional Concurs de folclor „Ponoare, Ponoare", ediţia a X-a, Ponoare, jud. Mehedinţi;',
+        '– Premiul I – Festivalul Internaţional de interpretare vocală şi instrumentală „Iosiv Sivu şi Cosmin Golban", ediţia a IX-a, Timiş, 2015;',
+        '– Premiul Fundației Culturale „Valeria Peter Predescu– Festivalul- Concurs Național de Interpretare a cântecului popular românesc „VALERIA PETER PREDESCU", ediția a VIII-a, Bistrița- Năsăud, 2017;',
+        '–  Premiul Special – Festivalul- Concurs al Cântecului Popular Românesc „LUCREȚIA CIOBANU", ediția a II-a, Sibiu;',
+        '– Participantă a Emisiunii „ O vedeta populară", TVR, sezonul I, 2017;',
+        '– A reprezentat cu mândrie Argeșul, atât în țară cât și în străinătate.',
+        '– Colaboratoare a Institutului Cultural Român',
+        'A fost invitată ca membră în jurii de specialitate în cadrul concursurilor și al festivalurilor de muzică pentru copii!',
+        'A avut numeroase apariții pe micul ecran în videoclipuri și emisiuni de specialitate!',
+        'În prezent este cadru didactic învățământ preuniversitar –  catedra Educație muzicală, cu experiență didactică de peste 8 ani in lucrul cu copiii!'
+      ]
     },
     'andreea-oprea': {
       name: 'Andreea Oprea',
       specialty: 'Prof. Dezvoltare Personală',
       image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/oprea.jpg',
-      bio: 'Facilitator pentru ateliere de dezvoltare personală "Inimi curajoase".'
+      bio: [
+        'Andreea Oprea este psiholog, trainer și consilier parental…',
+        'Andi va susține săptămânal ateliere pentru „Inimi Curajoase", în cadrul Școlii de Muzică și Teatru „Sound Music Art" Pitești.',
+        'Micii artiști, și nu numai, vor avea ocazia să își exploreze emoțiile și să învețe tehnici de relaxare. Atelierul „Inimi Curajoase" este creat cu grijă pentru copii.',
+        'Fie că e vorba de o notă muzicală sau de un simplu cuvânt spus în fața altora, Andi îi va ghida pe copii să transforme emoțiile în curaj și să își exprime talentul cu naturalețe.',
+        'Credem că fiecare copil este unic și are propriul ritm de dezvoltare. Într-un mediu sigur și relaxat, copiii își vor regăsi încrederea în sine și vor descoperi bucuria de a se exprima liber.',
+        '𝑬𝒎𝒐𝒕̦𝒊𝒊𝒍𝒆 𝒔𝒖𝒏𝒕 𝒇𝒊𝒓𝒆𝒔̦𝒕𝒊, 𝒊𝒂𝒓 𝒂𝒖𝒕𝒆𝒏𝒕𝒊𝒄𝒊𝒕𝒂𝒕𝒆𝒂 𝒇𝒊𝒆𝒄𝒂̆𝒓𝒖𝒊 𝒄𝒐𝒑𝒊𝒍 𝒆𝒔𝒕𝒆 𝒄𝒆𝒂 𝒎𝒂𝒊 𝒇𝒓𝒖𝒎𝒐𝒂𝒔𝒂̆ 𝒇𝒐𝒓𝒎𝒂̆ 𝒅𝒆 𝒔𝒕𝒓𝒂̆𝒍𝒖𝒄𝒊𝒓𝒆. 🌟'
+      ]
     }
   }
 
