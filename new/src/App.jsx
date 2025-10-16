@@ -13,6 +13,18 @@ import CourseDetailPage from './pages/CourseDetailPage'
 import BlogPage from './pages/BlogPage'
 import ContactPage from './pages/ContactPage'
 import RegisterPage from './pages/RegisterPage'
+
+// CMS Imports
+import CMSLogin from './pages/CMS/CMSLogin'
+import CMSLayout from './pages/CMS/CMSLayout'
+import CMSDashboard from './pages/CMS/CMSDashboard'
+import CMSCourses from './pages/CMS/CMSCourses'
+import CMSTeachers from './pages/CMS/CMSTeachers'
+import CMSBlogPosts from './pages/CMS/CMSBlogPosts'
+import CMSHeroSlides from './pages/CMS/CMSHeroSlides'
+import CMSSubmissions from './pages/CMS/CMSSubmissions'
+import CMSSettings from './pages/CMS/CMSSettings'
+
 import './App.css'
 
 function App() {
@@ -20,21 +32,84 @@ function App() {
     <Router>
       <ScrollToTop />
       <BackToTop />
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/despre-noi" element={<AboutPage />} />
-          <Route path="/profesori" element={<TeachersPage />} />
-          <Route path="/profesori/:slug" element={<TeacherProfilePage />} />
-          <Route path="/cursuri" element={<CoursesPage />} />
-          <Route path="/cursuri/:slug" element={<CourseDetailPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/inscrie-te" element={<RegisterPage />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Routes>
+        {/* Public Routes */}
+        <Route path="/" element={
+          <div className="App">
+            <Header />
+            <Home />
+            <Footer />
+          </div>
+        } />
+        <Route path="/despre-noi" element={
+          <div className="App">
+            <Header />
+            <AboutPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/profesori" element={
+          <div className="App">
+            <Header />
+            <TeachersPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/profesori/:slug" element={
+          <div className="App">
+            <Header />
+            <TeacherProfilePage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/cursuri" element={
+          <div className="App">
+            <Header />
+            <CoursesPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/cursuri/:slug" element={
+          <div className="App">
+            <Header />
+            <CourseDetailPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/blog" element={
+          <div className="App">
+            <Header />
+            <BlogPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/contact" element={
+          <div className="App">
+            <Header />
+            <ContactPage />
+            <Footer />
+          </div>
+        } />
+        <Route path="/inscrie-te" element={
+          <div className="App">
+            <Header />
+            <RegisterPage />
+            <Footer />
+          </div>
+        } />
+
+        {/* CMS Routes */}
+        <Route path="/cms/login" element={<CMSLogin />} />
+        <Route path="/cms" element={<CMSLayout />}>
+          <Route index element={<CMSDashboard />} />
+          <Route path="courses" element={<CMSCourses />} />
+          <Route path="teachers" element={<CMSTeachers />} />
+          <Route path="blog-posts" element={<CMSBlogPosts />} />
+          <Route path="hero-slides" element={<CMSHeroSlides />} />
+          <Route path="submissions" element={<CMSSubmissions />} />
+          <Route path="settings" element={<CMSSettings />} />
+        </Route>
+      </Routes>
     </Router>
   )
 }
