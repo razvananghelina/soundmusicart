@@ -8,7 +8,8 @@
       "Bash(netstat:*)",
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
-      "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\" /s /b)"
+      "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\" /s /b)",
+      "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\\src\\pages\\CMS\" /b)"
     ],
     "deny": [],
     "ask": []
