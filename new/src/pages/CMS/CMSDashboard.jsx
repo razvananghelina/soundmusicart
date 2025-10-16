@@ -51,61 +51,61 @@ const CMSDashboard = () => {
       <h2>Dashboard</h2>
       <p className="cms-dashboard-subtitle">Welcome to Sound Music Art CMS</p>
 
-      <div className="stats-grid">
-        <Link to="/cms/courses" className="stat-card">
-          <div className="stat-icon courses">
+      <div className="cms-stats-grid">
+        <Link to="/cms/courses" className="cms-stat-card">
+          <div className="cms-stat-icon courses">
             <FiBook />
           </div>
-          <div className="stat-info">
+          <div className="cms-stat-info">
             <h3>{stats.courses}</h3>
             <p>Courses</p>
           </div>
         </Link>
 
-        <Link to="/cms/teachers" className="stat-card">
-          <div className="stat-icon teachers">
+        <Link to="/cms/teachers" className="cms-stat-card">
+          <div className="cms-stat-icon teachers">
             <FiUsers />
           </div>
-          <div className="stat-info">
+          <div className="cms-stat-info">
             <h3>{stats.teachers}</h3>
             <p>Teachers</p>
           </div>
         </Link>
 
-        <Link to="/cms/blog-posts" className="stat-card">
-          <div className="stat-icon blog">
+        <Link to="/cms/blog-posts" className="cms-stat-card">
+          <div className="cms-stat-icon blog">
             <FiFileText />
           </div>
-          <div className="stat-info">
+          <div className="cms-stat-info">
             <h3>{stats.blogPosts}</h3>
             <p>Blog Posts</p>
           </div>
         </Link>
 
-        <Link to="/cms/submissions" className="stat-card">
-          <div className="stat-icon submissions">
+        <Link to="/cms/submissions" className="cms-stat-card">
+          <div className="cms-stat-icon submissions">
             <FiMail />
           </div>
-          <div className="stat-info">
+          <div className="cms-stat-info">
             <h3>{stats.submissions}</h3>
             <p>Form Submissions</p>
           </div>
         </Link>
 
-        <Link to="/cms/hero-slides" className="stat-card">
-          <div className="stat-icon hero">
+        <Link to="/cms/hero-slides" className="cms-stat-card">
+          <div className="cms-stat-icon hero">
             <FiImage />
           </div>
-          <div className="stat-info">
+          <div className="cms-stat-info">
             <h3>{stats.heroSlides}</h3>
             <p>Hero Slides</p>
           </div>
         </Link>
       </div>
 
-      <div className="dashboard-actions">
+      <div className="cms-dashboard-actions">
         <h3>Quick Actions</h3>
-        <div className="action-buttons">
+        <div className="cms-action-buttons">
           <Link to="/cms/courses" className="cms-btn-action">
             Manage Courses
           </Link>
