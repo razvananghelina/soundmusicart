@@ -1,6 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import alexImg from '../assets/alex.jpg'
+import corneliaImg from '../assets/cornelia.jpg'
+import ioanaSoareImg from '../assets/ioana_soare.jpg'
+import florinDicuImg from '../assets/florin_dicu.jpg'
+import corinaStanescuImg from '../assets/corina_stanescu.jpg'
+import aylinUdroiuImg from '../assets/aylin_udroiu.jpg'
+import raduTitiImg from '../assets/radu_titi.jpg'
+import stefanGilaImg from '../assets/stefan_gila.jpg'
+import victorToaderImg from '../assets/victor_toader.jpg'
+import mihaelaPitigoiImg from '../assets/mihaela_pitigoi.jpg'
+import andreeaOpreaImg from '../assets/andreea_oprea.jpg'
 import './Teachers.css'
 
 const Teachers = () => {
@@ -8,67 +19,67 @@ const Teachers = () => {
     {
       name: 'Alexandru Cătălin Ionescu',
       specialty: 'Manager, Prof. Canto, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2016/05/Alex.jpg',
+      image: alexImg,
       slug: 'alexandru-catalin-ionescu'
     },
     {
       name: 'Cornelia Ionescu',
       specialty: 'Manager, Prof. Pian, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Eu.jpg',
+      image: corneliaImg,
       slug: 'cornelia-ionescu'
     },
     {
       name: 'Soare Ioana',
       specialty: 'Manager, Prof. Canto, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Soare-Ioana.jpg',
+      image: ioanaSoareImg,
       slug: 'ioana-soare'
     },
     {
       name: 'Alexandru Florin Dicu',
       specialty: 'Prof. Pian, Orgă, Acordeon',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Florin-Dicu-1.jpg',
+      image: florinDicuImg,
       slug: 'alexandru-florin-dicu'
     },
     {
       name: 'Corina Maria Stănescu',
       specialty: 'Prof. Chitară',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Corina-Stanescu.jpg',
+      image: corinaStanescuImg,
       slug: 'maria-corina-stanescu'
     },
     {
       name: 'Aylin Ioana Udroiu',
       specialty: 'Prof. Nai',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Aylin-Udroiu.jpg',
+      image: aylinUdroiuImg,
       slug: 'aylin-ioana-udroiu'
     },
     {
       name: 'Radu Titi',
       specialty: 'Prof. Pian',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Radu-Titi.jpg',
+      image: raduTitiImg,
       slug: 'radu-titi'
     },
     {
       name: 'Gila Stefan',
       specialty: 'Prof. Acordeon',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Stefan-Gila.jpg',
+      image: stefanGilaImg,
       slug: 'gila-stefan'
     },
     {
       name: 'Victor Toader',
       specialty: 'Prof. Tobe',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Victor-Toader.jpg',
+      image: victorToaderImg,
       slug: 'victor-toader'
     },
     {
       name: 'Mihaela Lucia Pitigoi',
       specialty: 'Prof. Canto Muzică Ușoară și Populară',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Mihaela-Pitigoi.jpg',
+      image: mihaelaPitigoiImg,
       slug: 'mihaela-lucia-pitigoi'
     },
     {
       name: 'Andreea Oprea',
       specialty: 'Prof. Dezvoltare Personală',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/oprea.jpg',
+      image: andreeaOpreaImg,
       slug: 'andreea-oprea'
     }
   ]

@@ -9,7 +9,9 @@
       "Bash(findstr:*)",
       "Bash(taskkill:*)",
       "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\" /s /b)",
-      "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\\src\\pages\\CMS\" /b)"
+      "Bash(dir \"C:\\sound_music_art\\soundmusicart\\new\\src\\pages\\CMS\" /b)",
+      "WebFetch(domain:soundmusicart.ro)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

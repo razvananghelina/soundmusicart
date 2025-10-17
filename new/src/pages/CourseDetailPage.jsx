@@ -20,7 +20,7 @@ const CourseDetailPage = () => {
       title: 'Acordeon',
       image: acordeonImg,
       description: 'Cursuri de acordeon pentru toate nivelurile',
-      details: 'Acordeonul este un instrument versatil, folosit în diverse stiluri muzicale. La Sound Music Art, oferim cursuri personalizate pentru toate vârstele și nivelurile de pregătire.',
+      details: 'Cursurile noastre de acordeon sunt deschise tuturor celor care vor să învețe un instrument expresiv și versatil. Lucrăm cu elevi de toate vârstele, indiferent de nivelul de experiență, și personalizăm lecțiile în funcție de obiectivele și stilul fiecăruia. Indiferent dacă ești începător sau ai deja experiență, te vom ghida pas cu pas într-un mod clar, relaxat și eficient.\n\nProfesorii noștri te vor ajuta să înveți corect tehnica, să îți dezvolți expresivitatea și să interpretezi cu plăcere piese din diverse genuri muzicale – de la muzică populară, clasică sau de petrecere, până la jazz și muzică contemporană.',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     },
@@ -28,15 +28,15 @@ const CourseDetailPage = () => {
       title: 'Atelierele de dezvoltare personală',
       image: dezvoltareImg,
       description: 'Program "Inimi curajoase"',
-      details: 'Pe lângă pregătirea muzicală, oferim și ateliere de dezvoltare personală sub numele "Inimi curajoase", ce au ca scop sprijinirea emoțională și dezvoltarea încrederii de sine a elevilor.',
-      duration: 'Sesiuni de grup',
-      level: 'Toate vârstele'
+      details: 'La Sound Music Art credem că arta și emoția merg mână în mână. De aceea, te invităm să participi la atelierele noastre intitulate "Inimi Curajoase" – ateliere speciale de dezvoltare personală pentru copii și adolescenți, menite să îi ajute în parcursul lor muzical, să fie echilibrați și autentici. Micii artiști, și nu numai, vor avea ocazia să își exploreze emoțiile și să învețe tehnici de relaxare. Fie că e vorba de o notă muzicală sau de un simplu cuvânt spus în fața altora, îi vom ghida pe copii să transforme emoțiile în curaj și să își exprime talentul cu naturalețe.',
+      duration: 'Sesiuni de grup săptămânale',
+      level: 'Copii și adolescenți'
     },
     'canto': {
       title: 'Canto muzică ușoară/populară',
       image: cantoImg,
       description: 'Tehnici vocale moderne',
-      details: 'Cursurile de canto acoperă tehnici vocale pentru muzică ușoară și populară, folosind metode moderne de educație vocală, inclusiv CVT (Complete Vocal Technique).',
+      details: 'Cursurile de canto oferă beneficii complete pentru dezvoltarea vocii și tehnicii muzicale: îmbunătățirea tehnicii vocale (respirație corectă, rezonanță, dicție, poziționare corporală), controlul vocii pentru o interpretare sigură, extinderea registrului vocal, și dezvoltarea auzului muzical. Pe plan artistic și personal, cursurile îți cresc încrederea în sine prin cântatul în fața altora, dezvoltă expresivitatea și interpretarea, oferă potențial pentru dezvoltarea carierei artistice, și te ajută să înveți repertoriul potrivit stilului tău vocal. Muzica ușoară se concentrează pe emoție și diversitate stilistică (pop, rock, soul), necesitând o voce versatilă, în timp ce muzica populară se bazează pe tradiție, cu stil interpretativ specific (ornamente vocale, dialect), exprimând legătura cu folclorul și cultura locală.',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     },
@@ -44,7 +44,7 @@ const CourseDetailPage = () => {
       title: 'Chitară',
       image: chitaraImg,
       description: 'Chitară acustică și electrică',
-      details: 'Învățăm tehnici de chitară acustică și electrică pentru diverse stiluri muzicale. De la acorduri de bază până la tehnici avansate de solo.',
+      details: 'Cursul oferă două direcții principale: chitară clasică (cu corzi de nailon, focalizată pe note individuale și poziționarea corectă a mâinilor, dezvoltând disciplină tehnică și interpretare expresivă, cu repertoriu clasic și modern) și chitară populară/ușoară (pe chitară acustică cu corzi metalice, axată pe acorduri, acompaniament vocal și ritmică, potrivită pentru folk, pop, rock acustic, oferind exprimare creativă și interacțiune socială). Beneficiile generale includ: dezvoltare muzicală (îmbunătățirea coordonării mâinilor, dezvoltarea auzului muzical și a ritmului, învățarea notației muzicale și tablaturilor, capacitatea de a improviza și acompania) și dezvoltare personală (construirea încrederii în sine, exprimarea emoțională, stimularea creativității, posibilitatea de a face muzică în grup).',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     },
@@ -52,15 +52,15 @@ const CourseDetailPage = () => {
       title: 'COR',
       image: corImg,
       description: 'Activități corale',
-      details: 'Participarea în cor dezvoltă abilitățile vocale, auzul muzical și spiritul de echipă. Repertoriul include piese clasice și moderne.',
+      details: 'Cursurile de cor sunt deschise tuturor – copii, adolescenți și adulți – indiferent de experiență. Fie că ai mai cântat într-un cor sau este prima dată când îți dorești să faci acest pas, vei fi întâmpinat cu entuziasm și sprijin. Cursurile de cor se adresează în special copiilor cu vârste cuprinse între 9-13 ani. Participanții își vor dezvolta vocea, vor învăța să cânte corect și vor face parte dintr-o echipă. Îi invităm pe toți cei interesați la o sesiune de probă gratuită pentru a face primul pas într-o experiență muzicală care va dezvolta încrederea în sine și spiritul de echipă.',
       duration: 'Repetiții săptămânale',
-      level: 'Toate nivelurile'
+      level: 'Copii (9-13 ani), adolescenți și adulți'
     },
     'nai': {
       title: 'Nai pentru muzica populară',
       image: naiImg,
       description: 'Muzică tradițională românească',
-      details: 'Naiul este un instrument tradițional românesc. Cursurile noastre acoperă tehnici specifice pentru muzica folclorică și etno.',
+      details: 'Cursul oferă trei direcții principale de învățare: 1) Muzică populară și etno (învățarea melodiilor tradiționale, ornamentații specifice folclorului precum vibrato și trillo, tehnici de improvizație, repertoriu incluzând doine, balade, cântece de nuntă și hore, ajutând la înțelegerea tradițiilor și valorilor culturale, potrivit pentru ansambluri populare și evenimente tradiționale); 2) Muzică ușoară/pop (învățarea stilurilor contemporane pop, rock, jazz, adaptarea naiului la genuri muzicale moderne, explorarea acordurilor simple și improvizației, repertoriu incluzând piese populare și coveruri, adăugând un sunet unic muzicii contemporane, ideal pentru interpretări solo și colaborări); 3) Muzică clasică (învățarea tehnicilor pentru piese clasice și adaptări, focus pe fraze muzicale lungi și control dinamic, dezvoltarea abilităților riguroase de interpretare, potențial pentru participare în orchestre sau ansambluri de cameră, înțelegerea aprofundată a muzicii clasice).',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     },
@@ -68,7 +68,7 @@ const CourseDetailPage = () => {
       title: 'Pian clasic /orgă',
       image: pianImg,
       description: 'Tehnici clasice și moderne',
-      details: 'Cursuri de pian și orgă pentru toate nivelurile, acoperind repertoriu clasic, muzică ușoară și caffe concert.',
+      details: 'Cursul oferă pregătire în pian și orgă pentru multiple stiluri muzicale, cu beneficii incluzând: dezvoltare tehnică (îmbunătățirea coordonării mâinilor, dezvoltarea auzului muzical, citirea partiturilor, dezvoltarea memoriei muzicale) și creștere personală (disciplină și răbdare, creativitate și improvizație, construirea încrederii). Stilurile specializate includ: 1) Pian clasic (focus pe repertoriu baroc, clasic și romantic); 2) Pian/orgă muzică ușoară (accent pe acompaniament și improvizație); 3) Pian/orgă muzică populară (concentrare pe ritmuri tradiționale și acompaniament); 4) Stil Cafe Concert (abordare elegantă, instrumentală, pentru crearea unei ambianțe sofisticate). Cursul este potrivit pentru diverse obiective: dezvoltarea unei baze muzicale solide, învățarea să cânți în trupe sau la evenimente, sau crearea de atmosfere muzicale rafinate.',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     },
@@ -76,7 +76,7 @@ const CourseDetailPage = () => {
       title: 'Studio de înregistrări',
       image: studioImg,
       description: 'Studio profesional',
-      details: 'Cursanții noștri au acces la propriul nostru studio de înregistrări, un spațiu profesional unde își pot explora creativitatea și înregistra piese.',
+      details: 'Cursanții noștri au acces la propriul nostru studio de înregistrări, un spațiu profesional unde își pot explora creativitatea, înregistra piese, construi un portofoliu artistic și experimenta procesul muzical complet, de la idee la produs finit. Studioul este deschis și pentru colaborări între elevi, profesori sau invitați speciali, încurajând astfel lucrul în echipă și schimbul de idei artistice. Este locația perfectă pentru a transforma pasiunea muzicală în rezultate concrete și profesionale.',
       duration: 'Sesiuni flexibile',
       level: 'Cursanți activi'
     },
@@ -84,7 +84,7 @@ const CourseDetailPage = () => {
       title: 'Tobe',
       image: tobeImg,
       description: 'Percuție și ritm',
-      details: 'Cursuri de tobe pentru dezvoltarea tehnicii ritmice și coordonarea motorie. Învățăm diverse stiluri: rock, jazz, pop, funk.',
+      details: 'Dacă ești pasionat de ritm și vrei să înveți să cânți la tobe, te așteptăm cu lecții potrivite pentru orice vârstă și nivel. Cursurile oferă o abordare clară și practică, cu instruire personalizată care te ajută să înveți pas cu pas să dezvolți tehnica de ritm, coordonarea și expresivitatea la tobe. Oferim o sesiune gratuită de testare pentru a determina programul de studiu cel mai potrivit pentru tine. Indiferent dacă ești începător sau avansat, profesorul dedicat te va ghida în dezvoltarea abilităților tale la tobe, asigurându-se că vei evolua constant și vei descoperi bucuria de a cânta la acest instrument dinamic.',
       duration: 'Lecții de 45-60 minute',
       level: 'Începători, Intermediari, Avansați'
     }

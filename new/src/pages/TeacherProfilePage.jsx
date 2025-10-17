@@ -1,6 +1,17 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import Breadcrumbs from '../components/Breadcrumbs'
+import alexImg from '../assets/alex.jpg'
+import corneliaImg from '../assets/cornelia.jpg'
+import ioanaSoareImg from '../assets/ioana_soare.jpg'
+import florinDicuImg from '../assets/florin_dicu.jpg'
+import corinaStanescuImg from '../assets/corina_stanescu.jpg'
+import aylinUdroiuImg from '../assets/aylin_udroiu.jpg'
+import raduTitiImg from '../assets/radu_titi.jpg'
+import stefanGilaImg from '../assets/stefan_gila.jpg'
+import victorToaderImg from '../assets/victor_toader.jpg'
+import mihaelaPitigoiImg from '../assets/mihaela_pitigoi.jpg'
+import andreeaOpreaImg from '../assets/andreea_oprea.jpg'
 import './TeacherProfilePage.css'
 
 const TeacherProfilePage = () => {
@@ -11,7 +22,7 @@ const TeacherProfilePage = () => {
     'alexandru-catalin-ionescu': {
       name: 'Alexandru Cătălin Ionescu',
       specialty: 'Manager, Prof. Canto, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2016/05/Alex.jpg',
+      image: alexImg,
       bio: [
         'Alexandru-Cătălin Ionescu este profesor de canto, artist liric, dirijor și promotor cultural, cu o experiență de peste 18 ani în domeniul educației muzicale și al artei vocale.',
         'A absolvit Facultatea de Teologie din Pitești, Secția Pedagogie Muzicală. Între anii 2007 și 2010 a activat ca artist liric în cadrul Corului Filarmonicii din Pitești, o etapă importantă în formarea și consolidarea carierei sale artistice.',
@@ -28,13 +39,13 @@ const TeacherProfilePage = () => {
     'cornelia-ionescu': {
       name: 'Cornelia Ionescu',
       specialty: 'Manager, Prof. Pian, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Eu.jpg',
+      image: corneliaImg,
       bio: 'Profesor de pian și dirijor cu dedicare pentru formarea tinerelor talente.'
     },
     'ioana-soare': {
       name: 'Soare Ioana',
       specialty: 'Manager, Prof. Canto, Dirijor',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Soare-Ioana.jpg',
+      image: ioanaSoareImg,
       bio: [
         'Ioana Soare este profesor de canto popular și pian. A acumulat o experiență didactică de peste 8 ani, de asemenea, se bucură să împărtășească celor mici  și celor mari tainele muzicii vocale și instrumentale.',
         'Este licențiată a Universității Naționale de Muzica din București, Facultatea de Pedagogie, Compoziție, Muzicologie – specializarea Pedagogie Muzicală;',
@@ -49,7 +60,7 @@ const TeacherProfilePage = () => {
     'alexandru-florin-dicu': {
       name: 'Alexandru Florin Dicu',
       specialty: 'Prof. Pian, Orgă, Acordeon',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Florin-Dicu-1.jpg',
+      image: florinDicuImg,
       bio: [
         'Alexandru Florin Dicu este profesor de pian și orgă, abordând în interpretare și predare diferite genuri muzicale destinate instrumentelor cu claviatură: muzică populară, muzică ușoară, caffe concert, etc.).',
         'Are o experiență de predare de peste 20 de ani, ca profesor de Educație Muzicală și Educație Muzicală Specializată – Orchestră.',
@@ -64,7 +75,7 @@ const TeacherProfilePage = () => {
     'maria-corina-stanescu': {
       name: 'Corina Maria Stănescu',
       specialty: 'Prof. Chitară',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Corina-Stanescu.jpg',
+      image: corinaStanescuImg,
       bio: [
         'Corina Maria Stănescu este profesor titular de chitară clasică la Liceul de Arte „Victor Giuleanu" din Râmnicu Vâlcea;',
         'Este absolventă a  Liceului de Artă „Dinu Lipatti" Pitești și a Universității „Transilvania" Brașov, Secția Pedagogie Muzicală, cu modulul de Chitară Clasică;',
@@ -80,7 +91,7 @@ const TeacherProfilePage = () => {
     'aylin-ioana-udroiu': {
       name: 'Aylin Ioana Udroiu',
       specialty: 'Prof. Nai',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Aylin-Udroiu.jpg',
+      image: aylinUdroiuImg,
       bio: [
         'Aylin Ioana Udroiu este absolventă a Liceului Pedagogic ,,Carol I" și are o experiență de 4 ani în lucrul cu copiii. Are specializare ca și educator-învatator și în prezent este înscrisă la  Facultatea de Teologie, Litere, Istorie și Arte, specializarea – Muzică, unde studiază naiul sub îndrumarea doamnei profesor doctor Gina Sandu.',
         'Este membră a orchestrei ,,Doina Argeșului Junior", iar din palmaresul artistic amintim:',
@@ -99,7 +110,7 @@ const TeacherProfilePage = () => {
     'radu-titi': {
       name: 'Radu Titi',
       specialty: 'Prof. Pian',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Radu-Titi.jpg',
+      image: raduTitiImg,
       bio: [
         'Absolvent al Universităţii Transilvania, Brașov – Facultatea de Interpretare Muzicală, secția pian, Radu Titi este cunoscut în lumea muzicală argeșeană și ca dirijorul formației corale, „Ars Nova,  Gheorghe Gomoiu", Pitești, dar și ca un profesor de pian apreciat, din cadrul Liceului de Arte " Dinu Lipatti". Are un bogat palmares artistic, activând ca și colaborator al Filarmonicii Pitești de peste 15 ani, perioadă în care a susținut numeroase concerte și recitaluri alături de Orchestra Simfonică, dar și de soliști renumiți.',
         'Pe lângă activitatea concertistică, încă de la începutul carierei sale a ales să se dedice în paralel și pedagogiei, contribuind la formarea tinerilor muzicieni, fiind  implicat constant și în proiecte muzicale de excepție.'
@@ -108,7 +119,7 @@ const TeacherProfilePage = () => {
     'gila-stefan': {
       name: 'Gila Stefan',
       specialty: 'Prof. Acordeon',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Stefan-Gila.jpg',
+      image: stefanGilaImg,
       bio: [
         'Muzician de naționalitate română, profesor de muzică, artist instrumentist tubă al Orchestrei secției de Revistă "Constantin Zărnescu" a Teatrului Alexandru Davila din Pitești și Diacon onorific al Sfintei Arhiepiscopii a Argeșului și Muscelului.',
         'A absolvit Liceul de Arte "Dinu Lipatti" din Pitești la instrument principal tubă, după care a urmat studiile de specialitate din domeniul muzicii în cadrul Universității de Stat din Pitești , Facultatea de Teologie Ortodoxă "Sfânta Muceniță Filoteea" secția Pedagogie Muzicală , având două specializări : Pedagogie Muzicală și Metodica – Didactica Predării Instrumentului – Instrument Tubă. Licențiat în Dirijat Coral și Metodica predării muzicii.',
@@ -129,13 +140,13 @@ const TeacherProfilePage = () => {
     'victor-toader': {
       name: 'Victor Toader',
       specialty: 'Prof. Tobe',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Victor-Toader.jpg',
+      image: victorToaderImg,
       bio: 'Prof. Victor Toader este absolvent al Liceului de Artă „Dinu Lipatti" din Pitești, deținător al atestatului profesional în muzică și laureat al unor competiții naționale de percuție. În prezent, își continuă parcursul academic în cadrul Facultății de Muzică a Universității din Pitești și desfășoară activitate pedagogică în calitate de profesor de tobe la Școala Populară de Arte și Meserii din Pitești.'
     },
     'mihaela-lucia-pitigoi': {
       name: 'Mihaela Lucia Pitigoi',
       specialty: 'Prof. Canto Muzică Ușoară și Populară',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/Mihaela-Pitigoi.jpg',
+      image: mihaelaPitigoiImg,
       bio: [
         'Mihaela Lucia Pițigoi este profesor de canto muzică ușoară și populară.',
         'Este absolventă a Universității de Stat din Pitești, Facultatea de Teologie, Litere, Istorie și Arte, secția Pedagogie Muzicală. Ulterior a absolvit și cursurile de Master în cadrul Universității din Pitești, Educație Muzicală Contemporană.',
@@ -156,7 +167,7 @@ const TeacherProfilePage = () => {
     'andreea-oprea': {
       name: 'Andreea Oprea',
       specialty: 'Prof. Dezvoltare Personală',
-      image: 'https://soundmusicart.ro/melody/wp-content/uploads/2025/10/oprea.jpg',
+      image: andreeaOpreaImg,
       bio: [
         'Andreea Oprea este psiholog, trainer și consilier parental…',
         'Andi va susține săptămânal ateliere pentru „Inimi Curajoase", în cadrul Școlii de Muzică și Teatru „Sound Music Art" Pitești.',
